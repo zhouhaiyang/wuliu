@@ -1,0 +1,702 @@
+/*-------------------------------S-header---------------------------*/
+.wrap {
+    width: 1160px;
+    padding: 0 20px;
+}
+/*-------------------------------E-header---------------------------*/
+/*-------------------------------S-banner---------------------------*/
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url("../image/about/banner.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner .contain {
+    padding: 70px 0 0 40px;
+}
+.title {
+    color : #ffffff;
+    font-size: 60px;
+}
+.desc {
+    padding:5px 0 10px;
+    font-size: 20px;
+    color : #fffefe;
+}
+.banner .contain i {
+    display: inline-block;
+    height: 4px;
+    width: 30px;
+}
+.banner .contain .left {
+    background: #ffffff;
+}
+.banner .contain .right {
+    background: #ffb118;
+}
+/*------------------------------E-banner----------------------*/
+
+/*------------------------------S-log-introduce----------------------*/
+.log-introduce{
+    width: 100%;
+}
+.log-introduce .text {
+    padding: 100px 48px 0 40px;
+    float: left;
+    width: 524px;
+}
+.log-introduce .text .tex-top{
+    font-size: 20px;
+    color : #888888;
+}
+.log-introduce .text .det {
+    font-size: 14px;
+    margin-top: 10px;
+    color : #888888;
+}
+.in-title {
+    text-align: left;
+    font-size: 46px;
+    color : #333333;
+    font-weight: bold;
+}
+.in-logo{
+    font-size: 20px;
+    color : #ffb118;
+}
+.in-logo>span {
+    color : #888888;
+}
+.log-introduce .photo {
+    padding: 100px 40px 110px 48px;
+    float: right;
+}
+.log-introduce .photo img {
+    width: 500px;
+    height: 340px;
+}
+/*------------------------------E-log-introduce---------------------------*/
+/*------------------------------S-information---------------------------*/
+.information{
+    text-align: center;
+    width: 100%;
+    height : 415px;
+    padding-top: 85px;
+    background: url("../image/about/introduce.jpg")no-repeat center;
+    background-size: cover;
+}
+.information .in-title {
+    font-size : 30px;
+    color : #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+.information .in-logo {
+    line-height: 40px;
+}
+.information .text {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color : #e4e4e4;
+}
+/*------------------------------E-information---------------------------*/
+
+/*---------------------S-Business---------------------------*/
+.business {
+    width : 100%;
+    text-align : center;
+}
+.business div.business-top {
+    width : 100%;
+    height :210px;
+    background : #f1f1f1;
+    padding-top : 160px;
+}
+.business div.business-top p.title {
+    font-size : 30px;
+    color : #333333;
+}
+.business div.business-top p.logo {
+    color : #ffb118;
+    font-size : 20px;
+    font-weight : bold;
+    margin-top : 10px;
+}
+.business div.business-top p.logo i {
+    position : relative;
+    top: -2px;
+    height : 100%;
+    font-size : 1px;
+    color : #888888;
+
+}
+.business ul {
+    position: relative;
+    width : 1140px;
+    padding: 0 30px;
+    height : 400px;
+}
+.business ul li {
+    width: 265px;
+    float: left;
+    text-align: left;
+    margin: -66px 10px 0;
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+}
+.business ul li .photo {
+    width: 260px;
+    margin: 0 auto;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    box-shadow: 0 0 4px 2px #ececed;
+    -moz-box-shadow: 0 0 4px 2px #ececed;
+    -o-box-shadow: 0 0 4px 2px #ececed;
+    -webkit-box-shadow: 0 0 4px 2px #ececed;
+}
+.business ul li .boy1{
+    background: url("../image/about/boy1.png")no-repeat center;
+}
+.business ul li .boy2{
+    background: url("../image/about/boy2.png")no-repeat center;
+}
+.business ul li .boy3{
+    background: url("../image/about/boy3.png")no-repeat center;
+}
+.business ul li .boy4{
+    background: url("../image/about/boy4.png")no-repeat center;
+}
+.business ul li .name {
+    font-size: 14px;
+    color : #888888;
+    margin: 15px 0 5px;
+}
+.business ul li div .title {
+    font-size: 20px;
+    color : #333333;
+}
+.business ul li div>i {
+    width: 10px;
+    display:inline-block;
+    height: 4px;
+    margin: 8px 0;
+ }
+.business ul li div .left {
+    margin: 8px 5px 8px 2px;
+    background: #333333;
+}
+.business ul li div .right {
+    background : #ffb118;
+}
+.business ul li .detail {
+    font-size: 14px;
+    color : #888888;
+}
+/*--------------------E-Business---------------------------*/
+/*--------------------S-form---------------------------*/
+.about-form {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 90px 0 55px 0 ;
+}
+.about-form .title {
+    font-size : 30px;
+    color : #333333;
+}
+.about-form  .center>div {
+    text-align: center;
+}
+.about-form  div .logo {
+    color : #ffb118;
+    font-size : 20px;
+    font-weight : bold;
+    margin-top : 10px;
+}
+.about-form  div .logo i {
+    position : relative;
+    top: -2px;
+    height : 100%;
+    font-size : 1px;
+    color : #888888;
+
+}
+.about-form .form-contain {
+  padding: 0 50px;
+    margin-top: 60px;
+}
+.about-form .form-contain .left {
+    text-align: left;
+    float: left;
+}
+.about-form .form-contain .left .tel {
+    background: url("../image/about/tel.png") no-repeat left 22px;
+
+}
+.about-form .form-contain .left .email {
+    background: url("../image/about/email.png") no-repeat left 22px;
+
+}
+.about-form .form-contain .left .add {
+    background: url("../image/about/add.png") no-repeat left 15px;
+
+}
+.about-form .form-contain .left .tit {
+    font-size: 24px;
+    color : #333333;
+    padding-bottom: 15px;
+}
+.about-form .form-contain .left .desc {
+    color :#666666;
+    font-size: 14px;
+    padding: 0;
+}
+.about-form .form-contain .left .desc a {
+    font-size: 14px;
+    color : #666666;
+    text-decoration: underline;
+}
+.about-form .form-contain .left .left-top .email a {
+    color :#ffb118;
+
+}
+.about-form .form-contain .left .left-top {
+    padding: 30px 0 40px;
+}
+.about-form .form-contain .left .left-top .tel {
+    padding: 22px 0 0 40px;
+}
+.about-form .form-contain .left .left-top .email {
+    padding: 22px 0 0 40px;
+}
+.about-form .form-contain .left .left-top .email .d{
+    padding-top: 10px;
+}
+.about-form .form-contain .left .left-cen {
+     padding: 35px 0 25px;
+ }
+.about-form .form-contain .left .left-cen .desc{
+    padding: 15px 0;
+}
+.about-form .form-contain .left .left-bot {
+      padding: 36px 0 25px;
+  }
+.about-form .form-contain .left .left-bot .desc{
+    padding: 15px 0;
+}
+.about-form .form-contain .left .left-top .phone a {
+    color :#ffb118;
+    font-size: 18px;
+}
+.about-form .form-contain .left .left-bot .desc {
+    line-height: 24px;
+}
+.about-form .form-contain .left div.ico{
+    padding-left: 40px;
+}
+.about-form .line {
+    width: 500px;
+    height: 1px;
+    background: #cccccc;
+}
+.about-form .form-contain .right {
+    float: right;
+    padding: 20px 30px 30px;
+    background: #ffffff;
+    box-shadow: 0 0 4px 2px #ececed;
+    -moz-box-shadow: 0 0 4px 4px #ececed;
+    -o-box-shadow: 0 0 4px 4px #ececed;
+    -webkit-box-shadow: 0 0 4px 4px #ececed;
+}
+.about-form .form-contain .right div {
+    padding-bottom: 20px;
+}
+.about-form .form-contain .right div input {
+    width: 398px;
+    height : 48px;
+    color : #999999;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+}
+.about-form .form-contain .right div textarea {
+    width: 398px;
+    height : 158px;
+    color : #999999;
+    font-size: 14px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+.about-form .form-contain .right div button {
+ border: none;
+    width: 440px;
+    height: 50px;
+    font-size: 14px;
+    color : #ffffff;
+    background: #ffb118;
+}
+.about-form .form-contain .right .title {
+     color : #333333;
+     font-size: 20px;
+ }
+.about-form .form-contain .right .desc {
+    color : #333333;
+    font-size: 14px;
+}
+/*--------------------E-form---------------------------*/
+/*------------------------------S-Media---------------------------------*/
+
+@media screen and (max-width: 1220px){
+    /*-S-header----*/
+   header .wrap {
+        width: 940px;
+    }
+    .center {
+        width : 980px;
+        margin : 0 auto;
+
+    }
+    .log-form .log-bg .center .form {
+        width: auto;
+        padding: 0 ;
+    }
+    header div.nav div a {
+        font-size : 13px;
+        margin-left : 50px;
+    }
+    /*-E-header ----*/
+    /*-S-log-introduce---*/
+    .log-introduce .text {
+        width: 500px;
+    }
+    .in-title {
+        font-size: 36px;
+    }
+    .log-introduce .photo {
+        padding: 100px 0 80px 0;
+    }
+    .log-introduce .photo img {
+        width: 480px;
+        height: 320px;
+    }
+    /*-E-log-introduce---*/
+    /*-s-business---*/
+    .business ul {
+        width : 940px;
+        padding: 0 20px;
+    }
+    .business ul li {
+        width: 215px;
+    }
+    .business ul li .photo {
+        width: 215px;
+        height: 220px;
+    }
+    /*-E-business---*/
+    /*---S-form----*/
+    .about-form .form-contain {
+        padding: 0;
+    }
+    .about-form .line {
+        width: 500px;
+        height: 1px;
+        background: #cccccc;
+    }
+    .about-form .form-contain .right {
+        padding: 20px 20px 30px;
+    }
+    .about-form .form-contain .right div {
+        padding-bottom: 20px;
+        width: 360px;
+    }
+    .about-form .form-contain .right div input {
+        width: 318px;
+        padding: 0 20px;
+    }
+    .about-form .form-contain .right div textarea {
+        width: 318px;
+        height : 168px;
+        padding: 10px 20px;
+    }
+    .about-form .form-contain .right div button {
+        width: 360px;
+    }
+    .about-form .form-contain .right .title {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    /*-E-form---*/
+}
+@media screen and (max-width: 1000px){
+    /*-S-header ----*/
+    header .wrap {
+        width: 725px;
+    }
+    .center {
+        width : 765px;
+        margin : 0 auto;
+
+    }
+    header div.nav div a {
+        font-size : 12px;
+        margin-left : 30px;
+    }
+    /*-E-header ----*/
+    /*-S-log-introduce---*/
+    .log-introduce .text {
+        text-align: center;
+        padding: 70px 48px 0 40px;
+        float: none;
+        margin: 0 auto;
+    }
+    .log-introduce .text .det {
+        font-size: 14px;
+        margin-top: 10px;
+        color : #888888;
+    }
+    .in-title {
+        text-align: center;
+
+    }
+    .log-introduce .photo {
+        padding: 50px 40px 110px 48px;
+        float: none;
+        margin: 0 auto;
+        height: auto;
+        width: 500px;
+    }
+    /*-E-log-introduce---*/
+    /*-s-business---*/
+    .business ul {
+        width : 745px;
+        padding: 0 5px;
+    }
+    .business ul li {
+        width: 173px;
+
+        margin: -60px 5px 0;
+    }
+    .business ul li .photo {
+        width: 175px;
+        height: 173px;
+    }
+    /*-E-business---*/
+    /*---S-form------*/
+    .about-form {
+        width: 100%;
+        background: #f1f1f1;
+        padding: 90px 0 55px 0 ;
+    }
+    .about-form .form-contain {
+        padding: 0 50px;
+        margin-top: 60px;
+    }
+    .about-form .form-contain .left {
+        text-align: left;
+        float: none;
+    }
+    .about-form .form-contain .right div input {
+        width: 398px;
+    }
+    .about-form .form-contain .right div textarea {
+        width: 398px;
+    }
+    .about-form .form-contain .right div button {
+        width: 440px;
+    }
+    .about-form .form-contain .right {
+        float: none;
+    }
+    .about-form .form-contain .right div {
+        margin: 0 auto;
+        width: 440px;
+    }
+    /*--------------------E-form---------------------------*/
+}
+@media screen and (max-width: 759px){
+    /*-S-header--*/
+    header .wrap {
+        width: 100%;
+        padding: 0;
+    }
+    .center {
+        width : 100%;
+    }
+    header {
+        height : auto;
+    }
+    header div.top{
+        height : auto;
+        text-align :center;
+    }
+    header div.top div a {
+        display : block;
+        width : 100%;
+        text-align :center;
+    }
+    header div.top div a.tel {
+        width : 100%;
+    }
+    header div.top div .last {
+        margin-left : 0;
+
+    }
+    header div.top div span {
+        display : block;
+        width :100%;
+    }
+    header .show-nav {
+        display : block;
+        color : lightgray;
+
+        line-height : 32px;
+        text-align : right;
+        font-weight : bold;
+        border-bottom : 1px solid lightslategray;
+    }
+    header .show-nav i {
+        display : inline-block;
+        width : 40px;
+        height : 32px;
+        background : url("../image/images/show_nav.png")  no-repeat right center;
+
+    }
+    header .nav {
+        display : none;
+    }
+    header .nav h1 {
+        display : none;
+    }
+    header .nav div {
+        float : none;
+        line-height : 30px;
+        background: #000;
+    }
+    header div.nav div a {
+        display : block;
+        text-align : center;
+        margin-left:0;
+        color : #ffffff;
+        border-bottom : 1px solid lightgray;
+    }
+    header div.nav div a:hover {
+        background :#fff;
+        color : #000;
+
+    }
+    /*-E-header--*/
+    /*-S-log-introduce---*/
+    .log-introduce .text {
+        text-align: center;
+        padding: 50px 0 30px 0;
+        float: none;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .log-introduce .text .det {
+        font-size: 14px;
+        margin-top: 10px;
+        color : #888888;
+    }
+    .in-title {
+        text-align: center;
+        font-size: 20px;
+    }
+    .log-introduce .photo {
+        padding: 30px 0 50px 0;
+        float: none;
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    .log-introduce .photo img {
+        width: 300px;
+        height: 240px;
+    }
+    /*-E-log-introduce---*/
+    /*-s-business---*/
+    .business ul {
+        width : 100%;
+        padding: 30px 0;
+        height: auto;
+    }
+    .business ul li {
+        width: 260px;
+        float: none;
+        margin: 30px auto;
+    }
+    .business ul li .photo {
+        width: 260px;
+        height: 240px;
+    }
+    /*-E-business---*/
+    /*-S-form---*/
+    .about-form .line {
+        width: 300px;
+        height: 1px;
+        background: #cccccc;
+    }
+    .about-form .form-contain {
+        padding: 0;
+    }
+    .about-form .form-contain .right {
+       padding: 20px 0 30px ;
+    }
+    .about-form .form-contain .right div input {
+        width: 278px;
+        padding: 0 10px;
+    }
+    .about-form .form-contain .right div textarea {
+        width: 278px;
+        padding: 0 10px;
+
+    }
+    .about-form .form-contain .right div button {
+        width: 300px;
+    }
+    .about-form .form-contain .right div {
+        margin: 0 auto;
+        width:300px;
+    }
+    /*-E-form---*/
+    /*-S-footer--*/
+    .footer {
+        text-align : center;
+        height : auto;
+        padding : 10px 0 90px 0;
+    }
+    .footer .footer-top {
+        height : auto;
+    }
+    .footer .footer-top .left {
+        float : none;
+    }
+    .footer .footer-top .cen{
+        width : 100%;
+        margin : 10px auto 0;
+    }
+    .footer .footer-top .cen a {
+        display : inline-block;
+        width : 32px;
+        height : 32px;
+        margin: 0 5px 0 5px;
+        background : url("../image/loc.png") no-repeat center;
+    }
+    .footer .footer-top .right {
+        float : none;
+        width : 230px;
+        margin : 0 auto;
+    }
+    .footer .footer-bot .left {
+        float : none;
+    }
+    .footer .footer-bot {
+        margin-top : 0;
+    }
+    .footer .footer-bot .right {
+        float : none;
+    }
+    /*-E-footer--*/
+}
+/*------------------------------E-Media----------------------------------*/

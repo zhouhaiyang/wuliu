@@ -1,0 +1,183 @@
+.center {
+    margin: 0 auto;
+    width: 1200px;
+}
+.clearfix:after {
+   content: '';
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float : right;
+}
+/*--------------------S-Header---------------------------*/
+header .wrap {
+    width: 1160px;
+    padding: 0 20px;
+}
+header {
+    height : 100px;
+    width : 100%;
+}
+header .show-nav {
+    display : none;
+    height : 32px;
+    background-color : black;
+    cursor : pointer;
+}
+header .top{
+    height : 30px;
+    background : #30333c;
+
+
+}
+header .top div .last {
+    margin-left : 40px;
+}
+header .top div span {
+    float : right ;
+}
+header .top div a {
+    color : #8d93a5;
+    line-height : 30px;
+    width : 135px;
+    text-align : right ;
+
+}
+header .top div .tel {
+    width : 120px;
+}
+header .top div a i.first{
+    display : inline-block;
+    position : relative;
+    top: 2px;
+    width : 18px;
+    height : 14px;
+    background : url("../image/loc.png") -19px 0 no-repeat;
+}
+header .top div a i.last{
+    display : inline-block;
+    position : relative;
+    top: 2px;
+    width : 18px;
+    height : 14px;
+    left : -6px;
+    background : url("../image/loc.png") 0 0 no-repeat;
+
+}
+header .top div span{
+    color : #989eb1;
+    line-height : 30px;
+}
+header .nav {
+    height : auto;
+    display : block;
+
+}
+header .nav h1 {
+    height : 100%;
+    line-height : 70px;
+    font-size : 30px;
+    float : left ;
+    color :   #ffb118;
+}
+header .nav div {
+    float : right ;
+    line-height : 70px;
+}
+header .nav div a {
+    font-size : 14px;
+    color : #333333;
+    margin-left : 60px;
+    font-weight : bold;
+}
+header .nav div a.active{
+    color : #ffb118;
+}
+header .nav div a:hover{
+    color : #ffb118;
+}
+/*--------------------E-Header---------------------------*/
+/*--------------------S-footer---------------------------*/
+.footer {
+    width : 100%;
+    height : 100px;
+    background : url("../image/images/footer.jpg") no-repeat center;
+    background-size : cover;
+    color : #858a98;
+    font-size : 14px;
+    padding-top : 20px;
+}
+.footer .footer-top {
+    height : 35px;
+    line-height : 35px;
+}
+.footer .footer-top .left {
+    float : left;
+}
+.footer .footer-top .left a {
+    cursor : pointer ;
+    color : #ffffff;
+    font-size : 14px;
+    text-decoration : underline;
+}
+.footer .footer-top .cen{
+    width : 185px;
+    margin : 0 auto;
+}
+.footer .footer-top .cen a {
+    display : inline-block;
+    width : 32px;
+    height : 32px;
+    margin: 0 5px 0 5px;
+    background : url("../image/loc.png") no-repeat center;
+}
+.footer .footer-top div.cen a:nth-child(1){
+    background-position: 0 -468px;
+}
+.footer .footer-top div.cen a:nth-child(2){
+    background-position: -34px -468px;
+}
+.footer .footer-top div.cen a:nth-child(3){
+    background-position: -69px -468px;
+}
+.footer .footer-top div.cen a:nth-child(4){
+    background-position: -104px -468px;
+}
+.footer .footer-top .right {
+    float : right;
+    padding : 0 10px 0 20px;
+    border : 1px solid #484d5b;
+    border-radius : 100px;
+}
+.footer .footer-top .right i {
+    display : inline-block;
+    width : 15px;
+    height : 15px;
+    background : url("../image/loc.png") no-repeat center;
+    background-position : -37px 0;
+    position :relative;
+    left : -10px;
+    top: 3px;
+}
+.footer .footer-bot .left {
+    float : left;
+}
+.footer .footer-bot {
+    margin-top : 10px;
+    height : 30px;
+    line-height : 30px;
+}
+.footer .footer-bot .right {
+    float : right;
+}
+/*--------------------E-footer---------------------------*/

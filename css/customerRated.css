@@ -1,0 +1,311 @@
+.title {
+    color : #333333;
+    font-size: 30px;
+    padding: 0;
+}
+
+.in-logo{
+    font-size: 20px;
+    color : #ffb118;
+}
+.in-logo>span {
+    color : #888888;
+}
+/*------------------------s-Content-----------------------------------*/
+.content{
+    width: 100%;
+    text-align: center;
+    background: #f1f1f1;
+    padding: 50px 0 280px;
+}
+.content .title {
+    font-size: 30px;
+    color : #333333;
+}
+.content .in-logo {
+    margin: 20px 0 90px;
+}
+.content .fobImg {
+    float: left;
+    position: relative;
+    border-bottom: 3px solid #666666 ;
+}
+.content .fobImg .videoLoc {
+    position: absolute;
+    width: 26px;
+    height : 16px;
+    top : 114px;
+    left : 180px;
+    background: url("../image/customerRated/videoLoc.png") no-repeat center;
+}
+.content .fobImg .link{
+    position: absolute;
+    bottom: 110px;
+    width: 100%;
+}
+.content .fobImg .link a{
+    color : #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content .fobImg .img a{
+    display: block;
+    width: 390px;
+    height : 280px;
+}
+.content .fobImg .img1 a{
+    background: url("../image/customerRated/rated1.jpg") no-repeat center;
+    background-size: cover;
+}
+.content .fobImg2{
+    margin: 0 15px;
+}
+.content .fobImg .img2 a{
+    background: url("../image/customerRated/rated2.jpg") no-repeat center;
+    background-size: cover;
+}
+.content .fobImg .img3 a{
+    background: url("../image/customerRated/rated3.jpg") no-repeat center;
+
+    background-size: cover;
+}
+/*------------------------s-Content-----------------------------------*/
+
+/*------------------------------S-Media---------------------------------*/
+@media screen and (min-width: 1220px){
+    .center {
+        width : 1200px;
+        margin : 0 auto;
+    }
+
+    .log-form .log-bg .center {
+        padding : 0 40px 0 40px;
+        width : 1120px;
+    }
+}
+@media screen and (max-width: 1220px){
+    /*-S-header-----*/
+    .center {
+        width : 980px;
+        margin : 0 auto;
+
+    }
+    header .wrap {
+        width: 940px;
+        padding: 0 20px;
+    }
+    header div.nav div a {
+        font-size : 13px;
+        margin-left : 50px;
+    }
+    /*-E-header -----*/
+    /*-s-Content--*/
+
+    .content .fobImg .img a{
+        width: 320px;
+    }
+    .content .fobImg2{
+        margin: 0 10px;
+    }
+    .content .fobImg .videoLoc {
+        top : 114px;
+        left : 150px;
+    }
+    /*------------------------s-Content-----------------------------------*/
+}
+@media screen and (max-width: 1000px){
+    /*-S-header ---*/
+    .center {
+        width : 765px;
+        margin : 0 auto;
+    }
+    header .wrap {
+        width: 725px;
+        padding: 0 20px;
+    }
+    header div.nav div a {
+        font-size : 12px;
+        margin-left : 30px;
+    }
+    /*-E-header ---*/
+    /*-s-Content--*/
+    .content{
+        padding: 30px 0 200px;
+    }
+
+    .content .fobImg .link{
+        height: 43px;
+        line-height: 43px;
+    }
+    .content .fobImg .img a{
+        width: 245px;
+        height : 245px;
+    }
+    .content .fobImg2{
+        margin: 0 15px;
+    }
+    .content .fobImg .videoLoc {
+        top : 110px;
+        left : 110px;
+    }
+    .content .fobImg .link{
+        bottom: 80px;
+    }
+    .content .fobImg .link a{
+        font-size: 12px;
+    }
+    /*--s-Content---*/
+}
+@media screen and (max-width: 759px){
+    /*-S-header--*/
+    .center {
+        width : 100%;
+    }
+    header .wrap {
+        width: 100%;
+        padding: 0;
+    }
+    header {
+        height : auto;
+    }
+    header div.top{
+        height : auto;
+        text-align :center;
+    }
+    header div.top div a {
+        display : block;
+        width : 100%;
+        text-align :center;
+    }
+    header div.top div a.tel {
+        width : 100%;
+    }
+    header div.top div .last {
+        margin-left : 0;
+
+    }
+
+    header div.top div span {
+        display : block;
+        width :100%;
+    }
+    header .show-nav {
+        display : block;
+        color : lightgray;
+
+        line-height : 32px;
+        text-align : right;
+        font-weight : bold;
+        border-bottom : 1px solid lightslategray;
+    }
+    header .show-nav i {
+        display : inline-block;
+        width : 40px;
+        height : 32px;
+        background : url("../image/images/show_nav.png")  no-repeat right center;
+
+    }
+    header .nav {
+        display : none;
+    }
+    header .nav h1 {
+        display : none;
+    }
+    header .nav div {
+        float : none;
+        line-height : 30px;
+        background: #000;
+    }
+    header div.nav div a {
+        display : block;
+        text-align : center;
+        margin-left:0;
+        color : #ffffff;
+        border-bottom : 1px solid lightgray;
+    }
+
+    header div.nav div a:hover {
+        background :#fff;
+        color : #000;
+
+    }
+
+    /*-S-header--*/
+    /*-s-Content--*/
+    .content{
+        padding: 50px 0 200px;
+    }
+    .content .title {
+        font-size: 28px;
+    }
+    .content .fobImg {
+        width: 390px;
+        margin: 0 auto;
+        float: none;
+    }
+    .content .fobImg .img {
+        width: 390px;
+    }
+    .content .fobImg .link{
+        position: absolute;
+        bottom: 0;
+        height: 43px;
+        width: 390px;
+        line-height: 43px;
+        background: rgba(1,1,1,0.7);
+    }
+    .content .fobImg .link a{
+        color : #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .content .fobImg .img a{
+        display: block;
+        width: 390px;
+        height : 280px;
+    }
+    .content .fobImg2{
+        margin: 20px auto;
+    }
+    /*--s-Content---*/
+    /*-S-footer--*/
+    .footer {
+        text-align : center;
+        height : auto;
+        padding : 10px 0 90px 0;
+    }
+    .footer .footer-top {
+        height : auto;
+    }
+    .footer .footer-top .left {
+        float : none;
+    }
+    .footer .footer-top .cen{
+        width : 100%;
+        margin : 10px auto 0;
+    }
+    .footer .footer-top .cen a {
+        display : inline-block;
+        width : 32px;
+        height : 32px;
+        margin: 0 5px 0 5px;
+        background : url("../image/loc.png") no-repeat center;
+    }
+    .footer .footer-top .right {
+        float : none;
+        width : 230px;
+        margin : 0 auto;
+    }
+    .footer .footer-bot .left {
+        float : none;
+    }
+    .footer .footer-bot {
+        margin-top : 0;
+    }
+    .footer .footer-bot .right {
+        float : none;
+    }
+    /*-E-footer--*/
+
+}
+/*------------------------------E-Media----------------------------------*/
