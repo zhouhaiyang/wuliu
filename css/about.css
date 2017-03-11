@@ -377,7 +377,7 @@
         padding: 100px 0 80px 0;
     }
     .log-introduce .photo img {
-        width: 480px;
+        width: 380px;
         height: 320px;
     }
     /*-E-log-introduce---*/
@@ -464,6 +464,9 @@
         float: none;
         margin: 0 auto;
         height: auto;
+        width: 500px;
+    }
+    .log-introduce .photo img {
         width: 500px;
     }
     /*-E-log-introduce---*/

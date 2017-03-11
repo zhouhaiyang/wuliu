@@ -219,18 +219,18 @@
         font-size: 28px;
     }
     .content .fobImg {
-        width: 390px;
+        width: 320px;
         margin: 0 auto;
         float: none;
     }
     .content .fobImg .img {
-        width: 390px;
+        width: 320px;
     }
     .content .fobImg .link{
         position: absolute;
         bottom: 0;
         height: 43px;
-        width: 390px;
+        width: 320px;
         line-height: 43px;
         background: rgba(1,1,1,0.7);
     }
@@ -241,7 +241,7 @@
     }
     .content .fobImg .img a{
         display: block;
-        width: 390px;
+        width: 320px;
         height : 280px;
     }
     .content .fobImg2{
